@@ -1,0 +1,39 @@
+{
+  "name": "edentypex",
+  "version": "1.0.0",
+  "description": "typescript express",
+  "main": "index.js",
+  "author": "berko johnson",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec 'ts-node' ./lib/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.0",
+    "@types/helmet": "0.0.43",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/mongoose": "^5.5.6",
+    "@types/morgan": "^1.7.35",
+    "@types/multer": "^1.3.7",
+    "@types/node": "^12.6.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
